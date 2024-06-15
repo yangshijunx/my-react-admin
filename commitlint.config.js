@@ -24,6 +24,12 @@ export default {
         'ci', // 修改CI配置、脚本
         'types', // 类型定义文件修改
         'wip', // 开发中
+        'release', // 发布新版本
+        'workflow', // 工作流改进
+        'dependencies', // 依赖升级
+        'config', // 配置文件修改
+        'other', // 其他修改
+        'upgrade', // 依赖升级
       ],
     ],
   },
