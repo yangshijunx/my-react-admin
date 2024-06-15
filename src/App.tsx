@@ -8,6 +8,7 @@ import AntdConfig from '@/theme/antd';
 import { MotionLazy } from './components/animate/motion-lazy';
 
 function App() {
+  console.log('App');
   return (
     <AntdConfig>
       <AntdApp>
