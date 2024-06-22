@@ -165,7 +165,7 @@ export default function Nav(props: Props) {
           onClick={onClick}
           style={menuStyle}
           inlineCollapsed={collapsed}
-          inlineIndent={50}
+          // inlineIndent={50}
         />
       </Scrollbar>
     </div>
