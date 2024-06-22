@@ -1,5 +1,6 @@
 export interface Result<T = any> {
-  status: number;
+  status?: number;
+  code?: number;
   message: string;
   data?: T;
 }
