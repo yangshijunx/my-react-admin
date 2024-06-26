@@ -34,7 +34,7 @@
 
       "signInPrimaryTitle": "Hi, Welcome Back",
       "signInSecondTitle": "Backstage management system",
-      "signInTitle": "",
+      "signInTitle": "login",
       "signInDesc": "Enter your personal details and get started!",
       "policy": "I agree to the xxx Privacy Policy",
       "scanSign": "scanning the code to complete the login",
@@ -110,6 +110,7 @@
       "i18n": "Multi Language",
       "upload": "Upload",
       "chart": "Chart",
+      "screenShot": "screenShot",
       "functions": "Functions",
       "clipboard": "Clipboard",
       "menulevel": {
