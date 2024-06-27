@@ -92,7 +92,7 @@ export default function OrganizationPage() {
   };
 
   const { data } = useQuery({
-    queryKey: ['orgs'],
+    queryKey: ['organizationList'],
     queryFn: orgService.getOrgList,
   });
 
@@ -138,10 +138,10 @@ export default function OrganizationPage() {
             <Col span={24} lg={6}>
               <Form.Item<SearchFormFieldType> label="Status" name="status" className="!mb-0">
                 <Select>
-                  <Select.Option value="enable">
+                  <Select.Option value>
                     <ProTag color="success">Enable</ProTag>
                   </Select.Option>
-                  <Select.Option value="disable">
+                  <Select.Option value={false}>
                     <ProTag color="error">Disable</ProTag>
                   </Select.Option>
                 </Select>
