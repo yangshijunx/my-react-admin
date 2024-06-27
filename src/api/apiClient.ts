@@ -3,6 +3,8 @@ import axios, { AxiosRequestConfig, AxiosError, AxiosResponse } from 'axios';
 import { isEmpty } from 'ramda';
 
 import { t } from '@/locales/i18n';
+// eslint-disable-next-line import/no-cycle
+import useUserStore from '@/store/userStore';
 
 import { Result } from '#/api';
 import { ResultEnum } from '#/enum';
@@ -17,8 +19,9 @@ const axiosInstance = axios.create({
 // 请求拦截
 axiosInstance.interceptors.request.use(
   (config) => {
+    const userToken = useUserStore.getState()?.userToken;
     // 在请求被发送之前做些什么
-    config.headers.Authorization = 'Bearer Token';
+    config.headers.Authorization = userToken ? `Bearer ${userToken}` : '';
     return config;
   },
   (error) => {

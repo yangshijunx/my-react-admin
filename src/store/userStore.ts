@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { create } from 'zustand';
 
+// eslint-disable-next-line import/no-cycle
 import userService, { SignInReq } from '@/api/services/userService';
 import { getItem, removeItem, setItem } from '@/utils/storage';
 
@@ -81,3 +82,5 @@ export const useSignIn = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   return useCallback(signIn, []);
 };
+
+export default useUserStore;
