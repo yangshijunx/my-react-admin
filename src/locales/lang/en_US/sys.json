@@ -111,6 +111,7 @@
       "upload": "Upload",
       "chart": "Chart",
       "screenShot": "screenShot",
+      "webrtc": "webrtc",
       "functions": "Functions",
       "clipboard": "Clipboard",
       "menulevel": {
