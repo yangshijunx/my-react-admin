@@ -1,0 +1,16 @@
+.ant-card-body {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ant-card-body .ant-card-grid {
+  flex: 1;
+  min-width: 100%; /* 最小宽度，调整为合适的值 */
+}
+
+@media (width <= 600px) {
+  .ant-card-body {
+    flex-direction: column;
+  }
+}

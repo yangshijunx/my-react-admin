@@ -67,6 +67,7 @@
     "simplebar-react": "^3.2.4",
     "styled-components": "^6.0.9",
     "vite": "^4.4.11",
+    "xgplayer": "^3.0.18",
     "zustand": "^4.4.3"
   },
   "devDependencies": {
