@@ -1,5 +1,5 @@
 import { Card, Button } from 'antd';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Player from 'xgplayer';
 import LivePreset from 'xgplayer/es/presets/live';
 import 'xgplayer/dist/index.min.css';
@@ -30,7 +30,7 @@ function WebRTC() {
   }, []);
   // 直播状态
   const [recording, setRecording] = useState<boolean>(false);
-  const videoRef = useRef<HTMLVideoElement | null>(null);
+  // const videoRef = useRef<HTMLVideoElement | null>(null);
   const [mediaStream, setMediaStream] = useState<MediaStream | null>(null);
 
   // 开始直播
