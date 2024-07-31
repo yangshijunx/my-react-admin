@@ -95,6 +95,9 @@ importers:
       i18next-browser-languagedetector:
         specifier: ^7.1.0
         version: 7.2.1
+      klinecharts:
+        specifier: ^9.8.10
+        version: 9.8.10
       nestjs-i18n:
         specifier: ^10.4.5
         version: 10.4.5(@nestjs/common@10.3.9(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.9(@nestjs/common@10.3.9(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1))(class-validator@0.14.1)(rxjs@7.8.1)
@@ -3282,6 +3285,10 @@ packages:
   kleur@4.1.5:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
+
+  klinecharts@9.8.10:
+    resolution: {integrity: sha512-4h0u749uprwaw8CifpegpjHzHnw/I9VTYb2wkUtBQqWnUPvxS4IpkkyMAwPcYbuzXWoqfqFGO02sRd3QDW4sbQ==}
+    engines: {node: '>=0.10.0'}
 
   known-css-properties@0.11.0:
     resolution: {integrity: sha512-bEZlJzXo5V/ApNNa5z375mJC6Nrz4vG43UgcSCrg2OHC+yuB6j0iDSrY7RQ/+PRofFB03wNIIt9iXIVLr4wc7w==}
@@ -9107,6 +9114,8 @@ snapshots:
   kind-of@6.0.3: {}
 
   kleur@4.1.5: {}
+
+  klinecharts@9.8.10: {}
 
   known-css-properties@0.11.0: {}
 

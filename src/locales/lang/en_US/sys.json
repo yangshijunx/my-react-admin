@@ -112,6 +112,7 @@
       "chart": "Chart",
       "screenShot": "screenShot",
       "webrtc": "webrtc",
+      "kline": "Kline",
       "functions": "Functions",
       "clipboard": "Clipboard",
       "menulevel": {
